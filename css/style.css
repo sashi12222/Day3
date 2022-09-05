@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    background-color:black;
+    width: 100%;
+    height:60px;
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 10px;
+}
+.header .logo{
+    font-size: 20px;
+    color:white;
+
+}
+.header .nav{
+    padding: 10px;
+}
+.header .nav .nav-links{
+    text-decoration: none;
+    color :white;
+    padding: 10px;
+    
+}
+/* end of header */
+.hero img{
+    width:100%;
+    height:600px;
+    object-fit: cover;
+}
+.services{
+    display: flex;
+    margin:50px;
+}
+.services .service{
+    display: flex;
+}
+.services .service img{
+    width:200px;
+}
+.software{
+display: flex;
+}
+.mobile{
+    display: flex;
+}
